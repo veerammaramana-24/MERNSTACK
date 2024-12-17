@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*group selector...
+        h1, p{
+            color: red;
+        }*/
+      
+        /*div selector....
+        div p{
+            color:red;
+        }*/
+        
+        /*child combinator....
+        p{
+               color: blue;
+        }
+        div > p{
+              background-color: yellow;
+        }*/
+
+      
+    /*adjacent sibling selector.......
+        h1 + p{
+            color: red;
+            font-style: italic;
+        }
+        h1 + p{---selecting first paragraph
+        h1 + p + p{---selecting second paragraph.
+        h1 + p + p + p{----selecting third paragraph.
+
+     general sibling selector........
+        h1 ~ p{
+            color: green;
+            font-style: italic;
+        }
+    */
+
+
+    </style>
+</head>
+<body>
+   <!--- group selector...
+   <h1 id="heading1">this is demo for selectors</h1>
+    <p class="para">this is para</p>--->
+
+
+    <!--div selector......
+    <div>
+         <p>this is p tag inside a div</p>
+    </div>
+    <p>this is p tag outside the div</p>---->
+
+
+    <!---child combinator....
+    <div>
+        <p>this is direct child that we will target</p>
+        <div>
+            <p>this is nested child <div></div></p>
+        </div>
+    </div>---->
+
+
+    <!---adjacent and general sibling selectors...
+    <h1>heading</h1>
+    <p>paragraph 1</p>
+    <p>paragraph 2</p>
+    <p>paragraph 3</p>---->
+
+
+</body>
+</html>

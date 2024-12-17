@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>College details</legend>
+        <label for="college">Collage name</label>
+        <input type="text" name="college" id="college"><br><br>
+        <label for="address">Address</label>
+        <input type="number" name="address" id="address"><br><br>
+        <label for="year">Year</label>
+        <input type="text" name="year" id="year">
+    </fieldset>
+    <fieldset>
+        <legend>Educational details</legend>
+        <label for="department">Department name</label>
+        <input type="text" name="department" id="department"><br><br>
+        <label for="section">Section</label>
+        <input type="number" name="section" id="section"><br><br>
+        <label for="cgpa">CGPA</label>
+        <input type="text" name="cgpa" id="cgpa">
+    </fieldset>
+    <br><br>
+    <textarea name="" id="" placeholder="enter your feedback"></textarea>
+    <br><br>
+    <fieldset>
+        <legend>dishes we offer</legend>
+        <select name="" id="">
+            <optgroup label="veg">
+                <option value="">paneer</option>
+                <option value="">aloo</option>
+                <option value="">gobhi</option>
+            </optgroup>
+            <optgroup label="non-veg">
+                <option value="">chicken</option>
+                <option value="">mutton</option>
+                <option value="">fish</option>
+            </optgroup>
+            <optgroup label="vegan">
+                <option value="">dish 1</option>
+                <option value="">dish 2</option>
+                <option value="">mushroom</option>
+            </optgroup>
+        </select>
+    </fieldset><br><br><br>
+    <!--datalist tag in html form-->
+    <input type="text" list="browsers" name="browser" placeholder="enter your favourite browser name.."/>
+    <datalist id="browsers">
+        <option value="chrome"></option>
+        <option value="microedge"></option>
+        <option value="safari"></option>
+        <option value="opera"></option>
+    </datalist><br><br><br>
+    <form oninput="result.value = parseInt(a.value)+parseInt(b.value)">
+        <input type="number" name="a" id="a">+
+        <input type="number" name="b" id="b">=
+        <output name="result"></output>
+    </form>
+
+</body>
+</html>
