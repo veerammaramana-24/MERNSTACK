@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">USER REGISTRATION FORM</h1><br><br>
+    <fieldset>
+        <legend>student details</legend>
+        <label for="firstname">First Name</label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="lastname">Last Name</label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age">
+    </fieldset><br><br>
+    <fieldset>
+        <legend>College details</legend>
+        <label for="college">Collage name</label>
+        <input type="text" name="college" id="college"><br><br>
+        <label for="address">Address</label>
+        <input type="number" name="address" id="address"><br><br>
+        <label for="year">Year</label>
+        <input type="text" name="year" id="year">
+    </fieldset><br><br>
+    <fieldset>
+        <legend>Educational details</legend>
+        <label for="department">Department name</label>
+        <input type="text" name="department" id="department"><br><br>
+        <label for="section">Section</label>
+        <input type="number" name="section" id="section"><br><br>
+        <label for="cgpa">CGPA</label>
+        <input type="text" name="cgpa" id="cgpa">
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>Coursers we offer</legend>
+        <select name="" id="">
+            <optgroup label="web">
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+                <option value="">Java Script</option>
+            </optgroup>
+            <optgroup label="logic">
+                <option value="">CPP</option>
+                <option value="">PYTHON</option>
+                <option value="">JAVA</option>
+            </optgroup>
+            <optgroup label="data base">
+                <option value="">DBMS</option>
+                <option value="">Oracle</option>
+                <option value="">My SQL</option>
+            </optgroup>
+        </select>
+    </fieldset><br><br><br>
+    <!--datalist tag in html form-->
+    famous browser did you use:
+    <input type="text" list="browsers" name="browser" placeholder="browsers"/>
+    <datalist id="browsers">
+        <option value="chrome"></option>
+        <option value="microedge"></option>
+        <option value="safari"></option>
+        <option value="opera"></option>
+    </datalist><br><br><br>
+    <p>perform  basic arthematic operation: </p><br>
+    <form oninput="result.value = parseInt(a.value)+parseInt(b.value)">
+        <input type="number" name="a" id="a">+
+        <input type="number" name="b" id="b">=
+        <output name="result"></output>
+    </form><br><br>
+    Feedback:
+    <textarea name="" id="" placeholder="enter your feedback"></textarea><br><br>
+    <button>SUBMIT</button>
+
+</body>
+</html>
