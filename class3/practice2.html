@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Task: make a dropdown for a kitchen that offer multiple dishes.
+    try to use optgroup to categorize the dishes. -->
+
+    <!-- solution: -->
+
+    <form>
+      <fieldset>
+        <legend>Dishes that we offer</legend>
+        <select name="" id="">
+          <option value="1">Biryani</option>
+          <option value="2">Pulao</option>
+          <option value="3">Karahi</option>
+          <option value="4">Korma</option>
+          <option value="5">Nihari</option>
+          <option value="6">Haleem</option>
+          <option value="7">Kabab</option>
+          <option value="8">Kofta</option>
+          <option value="9">Qorma</option>
+          <option value="10">Karahi</option>
+        </select>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>dishes we offer</legend>
+        <select name="" id="">
+          <optgroup label="veg">
+            <option value="">Paneer</option>
+            <option value="">Aloo</option>
+            <option value="">Gobhi</option>
+          </optgroup>
+          <optgroup label="non-veg">
+            <option value="">Chicken</option>
+            <option value="">Mutton</option>
+            <option value="">Fish</option>
+          </optgroup>
+          <optgroup label="Vegan">
+            <option value="">Honey</option>
+            <option value="">Dish 2</option>
+            <option value="">Dish 3</option>
+          </optgroup>
+        </select>
+      </fieldset>
+      <br>
+      <br>
+
+
+      <!-- datalist tag in html form -->
+
+      <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+      <datalist id="ice-cream-flavors">
+        <option value="Chocolate"></option>
+        <option value="Coconut"></option>
+        <option value="Mint"></option>
+        <option value="Strawberry"></option>
+        <option value="Vanilla"></option>
+      </datalist>
+    </form>
+  </body>
+</html>

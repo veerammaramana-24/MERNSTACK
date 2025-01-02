@@ -1,57 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
     <style>
-        /*universal selector---it is used to target whole document in on go 
-
-        *{                                 
-              color: red;
+      /* universal selector */
+      /* it used to target whole document in on go */
+      /* *{
+            color: green;
             font-style: italic;
             text-align: center;
-            text-transform: capitalize;
-        }
-        */
-        /* type selector--
+            text-transform:capitalize;
+        } */
 
-             h1{
-               color: green;
-            }
-            p{
-               color:red;
-            }
-            h4{ 
-               color: blue;
-               font-style: italic;
-            }
-        */
-        /* id selector*/
-        #heading1{
+      /* type selector to target similar kind of tag or element */
+      /* h1{
+            color: green;
+         }
+         p{
             color: red;
-        }
-        #heading2{
-            color:green;
-            font-style: italic;
-            text-align: center;
-        }
-        .para{
+         }
+         h4{
             color: blue;
-            font-weight: bolder;
-            font-size: 45px;
-        }
+            font-style: italic;
+         } */
 
+      /* id selector */
+      /* #heading1{
+                color: red;
+            }
+            #heading2{
+                color: green;
+                font-style: italic;
+                text-align: center;
+            }
+            .para{
+                color: blue;
+                font-weight: bolder;
+                font-size: 45px;
+            } */
 
+      /* group selector  */
+      /* h1, p{
+  color: red;
+} */
+
+      /* descendant selector */
+      /* div p{
+  color: red;
+ } */
+
+      /* this is child selector */
+      /* span {
+  background-color: aqua;
+}
+
+div > span {
+  background-color: yellow;
+} */
+      /* adjacent sibling selector */
+      /* h1 + p{
+  color: red;
+  font-style: italic;
+ } */
+      /* general sibling selector */
+      /* h1 + p+ p + p{
+    color: green;
+    font-style: italic;
+  } */
+
+      /* button{
+    padding: 7px 35px ;
+    background-color: green;
+    border: 1px solid black;
+    border-radius:12px ;
+   }
+   button:hover{
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    border-radius: 0px;
+    padding: 15px 60px;
+
+   }
+   h1:hover{
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+   } */
+
+input[type="text"]{
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
 
     </style>
-</head>
-<body>
-    <h1 id="heading1">this is demo </h1>
-    <h1 id="heading2">this is demo</h1>
-    <h1>this is demo</h1>
-    <p class="para">this is para</p>
-    <p>this is demo</p>
+  </head>
+  <body>
+    <!-- <div>
+      <span>
+        Span #1, in the div.
+        <span>Span #2, in the span that's in the div.</span>
+      </span>
+    </div> -->
+    <!-- <span>Span #3, not in the div at all.</span> -->
 
-</body>
+    <!-- <h1>form</h1>
+    <button>Submit</button> -->
+
+    <!-- anchor tag with active and hover property wiht pseudo classes -->
+    <!-- <p>
+      This paragraph contains a link:
+      <a href="#">This link will turn red while you click on it.</a>
+      The paragraph will get a gray background while you click on it or the link.
+    </p> -->
+
+
+
+<!-- attribute selector -->
+    <form>
+      <input type="text" placeholder="text enter">
+      <input type="password" placeholder="password enter">
+    </form>
+  </body>
 </html>

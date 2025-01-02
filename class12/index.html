@@ -1,0 +1,59 @@
+<!-- What is the CSS position property?
+The CSS position property defines the position of an element in a document. This property works with the left, right, top, bottom and z-index properties to determine the final position of an element on a page.
+
+There are five values the position property can take. They are:
+1.static by default (not affected by the top, bottom, left, and right properties)
+2.relative
+3.absolute
+4.fixed
+5.sticky -->
+
+<!-- transform, filter, and perspective are some of the properties that can make a element appear as positioned. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        background-color: greenyellow;
+        border: 3px solid purple;
+        padding: 35px;
+        margin: 20px;
+      }
+      .box {
+        height: 40px;
+        width: 80vw;
+        padding: 10px;
+        margin: 15px;
+        border: 2px solid black;
+      }
+      .box1 {
+        background-color: red;
+        /* position: relative;
+        top: 20px; */
+      }
+      .box2 {
+        background-color: aqua;
+        /* position: absolute;
+        top: 0px; */
+      }
+      .box3 {
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+      <div class="box box3"></div>
+    </div>
+  </body>
+</html>

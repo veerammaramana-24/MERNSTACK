@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .landing{
-    background: url("ocean.jpg");
+    background: url("images/ocean.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;

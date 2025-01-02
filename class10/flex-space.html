@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-start&end</title>
+    <style>
+        .container{
+            width: 700px;
+            height: 400px;
+            background-color:yellowgreen;
+            display: flex;
+            flex-direction: row;
+            /* flex-direction: column; */
+            /* justify-content: space-around; */
+            /* justify-content: flex-start; */
+            justify-content: center;
+            /* justify-content: flex-end; */
+            align-items: center;
+         }
+        .box{
+            height: 100px;
+            width: 100px;
+            margin: 5px;
+            padding: 10px;
+            background-color:red;
+            color: rgb(249, 248, 248);
+            border: 1px solid #cfcfcf;
+        }
+        .box1{
+            align-self: flex-end;
+            /* align-self: flex-start; */
+            justify-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+            <div class="box box1">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <!-- <div class="box">5</div> -->
+            <!-- <div class="box">6</div> -->
+            <!-- <div class="box">7</div> -->
+            <!-- <div class="box">8</div> -->
+            <!-- <div class="box">9</div> -->
+        </div>
+</body>
+</html>

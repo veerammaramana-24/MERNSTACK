@@ -1,0 +1,89 @@
+<!-- grid to display items in row and column
+grid track
+grid cell
+grid row gap
+grid column gap
+grid template rows
+grid template columns
+fr units fractional units for responsive design
+repeat function
+row and column span
+grid row start and end
+grid column start and end
+justify self
+align self
+ -->
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css Grid</title>
+    <style>
+        .container{
+            height: 100%;
+            width: 100%;
+            background-color: bisque;
+            display: grid;
+            grid-template-columns: repeat(3,200px);
+            grid-template-rows: repeat(3,250px);
+            gap: 20px;
+        }
+        .boxes-1{
+            background-color: aqua;
+            /* justify-self: center;
+            align-self: center;
+            width: 50px;
+            height: 50px; */
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .boxes-2{
+            background-color: blueviolet;
+            /* height: 100px;
+            width: 100px; */
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        .boxes-3{
+            background-color: brown;
+            /* height: 100px;
+            width: 100px; */
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        .boxes-4{
+            background-color: burlywood;
+            /* height: 100px;
+            width: 100px; */
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        .boxes-5{
+            background-color: cadetblue;
+            /* height: 100px;
+            width: 100px; */
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .boxes-6{
+            background-color: chartreuse;
+            /* height: 100px;
+            width: 100px; */
+        }
+    </style>
+ </head>
+ <body>
+    <div class="container">
+        <div class="box boxes-1">1</div>
+        <div class="box boxes-2">2</div>
+        <div class="box boxes-3">3</div>
+        <div class="box boxes-4">4</div>
+        <div class="box boxes-5">5</div>
+        <!-- <div class="box boxes-6">5</div> -->
+    </div>
+    
+ </body>
+ </html>
