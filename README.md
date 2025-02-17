@@ -14,8 +14,21 @@
 >**class-10:** CSS FlexWrap.  
 >**class-11:** CSS GridSystem.  
 >**class-12:** CSS Positions.  
->**class-13** CSS Animinations.  
+>**class-13:** CSS Animinations.  
 ### BOOTSTRAP:
->**class-14:** BOOTSTRAP Basics.  
->**class-15:** BOOTSTRAP Forms & Components.  
->**class-16:** BOOTSTRAP Typography.  
+>**class-14:** BOOTSTRAP Basics.    
+>**class-15:** BOOTSTRAP Forms & Components.    
+>**class-16:** BOOTSTRAP Typography.   
+>**class-17:** BOOTSTRAP Components-1.  
+>**class-18:** BOOTSTRAP Components-2.  
+### JAVASCRIPT:
+>**class-19:** JAVASCRIPT Introduction.  
+>**class-20:** JAVASCRIPT Variables & Hoisting.  
+>**class-21:** JAVASCRIPT DataTypes.  
+>**class-22:** JAVASCRIPT Operators &  Null vs Undefined.  
+>**class-23:** JAVASCRIPT Conditions & Functions.  
+>**class-24:** JAVASCRIPT Loops.  
+>**class-25:** JAVASCRIPT Arrays & Objects.  
+>**class-25:** JAVASCRIPT Object & Rest.  
+
+
