@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event listner</title>
+</head>
+<body>
+    <!-- <h1>hello</h1> -->
+    <!-- <script>
+        // Element.addeventListener(event,callbackFunction);
+        //common events
+        //click
+        //mouseover
+        //mouseout
+        //mousemove
+        //mousecenter
+        //mouseleave
+        //input
+        //change
+        //submit
+        //load
+        //resize
+        //error
+        const clickBtn=document.getElementById("clickBtn");
+    </script> -->
+    <!-- <h2>mouse over event</h2>
+        <div id="hoverBox">hover over me</div>
+        <script>
+            const hoverBox=document.getElementById("hoverBox");
+            hoverBox.addEventListener("mouseover",()=>{
+                hoverBox.style.backgroundColor="beige";
+            })
+            hoverBox.addEventListener("mouseout",()=>{
+                hoverBox.style.backgroundColor="orange";
+            })
+        </script> -->
+
+    <!-- <h2>key down</h2>
+    <p>press any key</p>
+    <p id="keyDown">Key Pressed:</p>
+    <script>
+        let keyDown=document.getElementById("keyDown");
+        document.addEventListener("keyDown",(event)=>{
+            keyDown.textContent=`Key pressed: `+event.key;
+        })
+    </script> -->
+    <!-- <h2>submit events</h2>
+        <form id="myform">
+            <label for="username">Enter your username:</label>
+            <input type="text" id="username" name="username" required>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+        <script>
+            const form=document.getElementById("myform");
+            form.addEventListener("submit",(e)=>{
+                e.preventDefault();
+                alert(form submit with details like:${form.username.value});
+            });
+        </script> -->
+    <!-- <h2>event remove</h2>
+    <button id="removeBtn">Click me</button>
+    <button id="stopBtn">Stop event</button>
+        <script>
+            const removeBtn=document.getElementById("removeBtn");
+            const stopBtn=document.getElementById("stopBtn");
+            function handleClick(){
+                alert("button has been clicked");
+            }
+            removeBtn.addEventListener("click",handleClick);
+            stopBtn.addEventListener("click",()=>{
+                removeBtn.removeEventListener("click",handleClick);
+                alert("event has been removed");
+            });
+        </script> -->
+    <div>
+        <button id="increment">+</button>
+        <button id="decrement">-</button>
+    </div>
+    <h1 id="text">0</h1>
+    <script>
+        let count = 0;
+        document.getElementById('increment').addEventListener('click', () => {
+            count++;
+            document.getElementById('text').textContent = count;
+        });
+        document.getElementById('decrement').addEventListener('click', () => {
+            count--;
+            if(count<0){
+                alert("cant go beyond this");
+                return;
+            }
+            document.getElementById('text').textContent = count;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>callback</title>
+</head>
+<body>
+    <!-- <button id="btn" type="button"> double Click Here</button>
+    <script>
+        const button=document.getElementById("btn");
+        button.addEventListener("dblclick",()=>{
+            alert("double clicked");
+            btn.textContent="btn is double clicked";
+        });
+    </script> -->
+
+    <!-- <input type="text" id="myInput">
+    <script>
+        const input=document.getElementById("myInput");
+        input.addEventListener("blur",()=>{
+            alert("input is blured please fill the input");
+        });
+        input.addEventListener("focus",()=>{
+            alert("input is focussed please fill the input");
+        })
+    </script> -->
+
+    <!-- <h1>press a key</h1>
+    <p id="keydown"></p>
+    <script>
+       let keyDown=document.getElementById('keydown');
+        document.addEventListener('keydown',(event)=>{
+            keyDown.textContent='Key pressed: '+event.key+event.keyCode;
+        })
+    </script> -->
+    <!-- <form id="basicForm">
+        <label>
+            name:   <input type="text" id="name" placeholder="Enter your name:">
+        </label>
+        <br><br>
+        <label>
+            Email: <input type="email" id="email" placeholder="Enter your Email:">
+        </label> <br><br>
+        <label>
+            Password: <input type="password" id="password" placeholder="Enter your password:">
+        </label>
+        <br><br> -->
+        <form id="checkboxForm">
+            <input type="checkbox" name="" id="agree">I agree to the terms and conditions 
+        </form><br><br>
+        <!-- <button type="submit">Submit</button> <br><br> -->
+    <!-- </form> -->
+    <script>
+        // const form=document.getElementById("basicForm");
+        // form.addEventListener("submit",(event)=>{
+        //     event.preventDefault();
+        //     const name=document.getElementById("name").value;
+        //     const email=document.getElementById("email").value;
+        //     const password=document.getElementById("password").value;
+        //     if(name===""){
+        //         alert("please enter your name:");
+        //         return;
+        //     }
+        //     if(!email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)){
+        //         alert("please enter your email:");
+        //         return;
+        //     }
+        //     if(password.length<8){
+        //         alert("please enter your password of length greater than 8");
+        //         return;
+        //     }
+        const form=document.getElementById("checkboxForm");
+        form.addEventListener("submit",(e)=>{
+            e.preventDefault();
+            const agree=document.getElementById("agree").checked;
+            if(!agree){
+                alert("please agree to the terms and condition");
+                return;
+            }
+            alert("form has been submitted");
+        });
+        //     alert(form has been submitted:username is ${name},email is ${email} and password is ${password});
+        // });
+    </script>
+</body>
+</html>
