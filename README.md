@@ -28,7 +28,12 @@
 >**class-22:** JAVASCRIPT Operators &  Null vs Undefined.  
 >**class-23:** JAVASCRIPT Conditions & Functions.  
 >**class-24:** JAVASCRIPT Loops.  
->**class-25:** JAVASCRIPT Arrays & Objects.  
->**class-25:** JAVASCRIPT Object & Rest.  
+>**class-25:** JAVASCRIPT Arrays & spread & MainFunction.  
+>**class-26:** JAVASCRIPT Object & Rest.  
+>**class-27:** JAVASCRIPT Containers & Lists.  
+>**class-28:** JAVASCRIPT Callback & ColorPicker.  
+>**class-29:** JAVASCRIPT EventListener.  
+>**class-30:** JAVASCRIPT Delegation & Promises.  
+  
 
 
